@@ -1,0 +1,22 @@
+{
+  "name": "site",
+  "version": "1.0.0",
+  "description": "Site Gabriel Azuirson",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gabrielveloso2/teste.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gabrielveloso2/teste/issues"
+  },
+  "homepage": "https://github.com/gabrielveloso2/teste#readme",
+  "dependencies": {
+    "aos": "^2.2.0"
+  }
+}

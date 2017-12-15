@@ -5,17 +5,35 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <!-- PAGE settings -->
-  <link rel="icon" href="https://templates.pingendo.com/assets/Pingendo_favicon.ico">
-  <title>Conference Elegant - Pingendo template</title>
-  <meta name="description" content="Free Bootstrap 4 Pingendo Elegant template for unique events.">
-  <meta name="keywords" content="Pingendo conference event elegant free template bootstrap 4">
+    <link rel="icon" type="image/x-icon" href="img/favicon/favicon.ico">
+    <link rel="apple-touch-icon-precomposed" href="img/favicon/fedora-hat-152-181124.png">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="img/favicon/fedora-hat-152-181124.png">
+
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="img/favicon/fedora-hat-144-181124.png">
+
+    <link rel="apple-touch-icon-precomposed" sizes="120x120" href="img/favicon/fedora-hat-120-181124.png">
+
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="img/favicon/fedora-hat-114-181124.png">
+
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="img/favicon/fedora-hat-72-181124.png">
+
+    <link rel="apple-touch-icon-precomposed" href="img/favicon/fedora-hat-57-181124.png">
+
+<link rel="icon" href="img/favicon/fedora-hat-32-181124.png" sizes="32x32">
+  <title>Gabriel Azuirson's page</title>
+  <meta name="description" content="Gabriel Azuirson's page">
+  <meta name="keywords" content="front-end back-end portifólio desenvolvimento web">
   <!-- CSS dependencies -->
   <link rel="stylesheet" href="theme.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css">
+  <link rel="stylesheet" href="node_modules/aos/dist/aos.css" />
   <!-- Script: Make my navbar transparent when the document is scrolled to top -->
+  
   <script src="js/navbar-ontop.js"></script>
   <!-- Script: Animated entrance -->
   <script src="js/animate-in.js"></script>
+  
+  
 </head>
 
 <body class="text-center">
@@ -29,10 +47,13 @@
             <a class="nav-link" href="#">Home</a>
           </li>
           <li class="nav-item mx-2">
-            <a class="nav-link" href="#speakers">Speakers</a>
+            <a class="nav-link" href="#habilidades">Habilidades</a>
           </li>
           <li class="nav-item mx-2">
-            <a class="nav-link" href="#schedule">Schedule</a>
+            <a class="nav-link" href="#projetos">Projetos</a>
+          </li>
+          <li class="nav-item mx-2">
+            <a class="nav-link" href="#contato">Contato</a>
           </li>
         </ul>
       </div>
@@ -43,7 +64,7 @@
     <div class="container">
       <div class="row">
         <div class="text-white p-5 bg-dark-opaque col-12 col-lg-8 mx-auto">
-          <h1 class="display-3">Gabriel Azuirson</h1>
+          <h1 class="display-3" >Gabriel Azuirson</h1>
           <p class="">Desenvolvedor Web e Mobile</p>
           <a href="#register" class="btn btn-lg mt-4 btn-primary">Currículo</a>
         <div class="row">  
@@ -62,7 +83,7 @@
   </div>
   <!-- Intro -->
   <!-- Speakers -->
-  <div class="p-5 gradient-overlay bg-secondary">
+  <div class="p-5 gradient-overlay bg-secondary" id="habilidades">
     <div class="container">
       <div class="row">
         <div class="col-md-12">
@@ -73,7 +94,7 @@
         <div class="p-3 align-self-center col-md-4">
           <div class="card">
             <div class="card-block p-3">
-              <h4>Front-End</h4>
+              <h4 data-aos="fade-up" data-aos-once="true">Front-End</h4>
               <hr>
               <ul class="itens">
                 <li>Angularjs</li>
@@ -92,7 +113,7 @@
         <div class="p-3 align-self-center col-md-4">
           <div class="card">
             <div class="card-block p-3">
-              <h4>Back-end</h4>
+              <h4 data-aos="fade-up" data-aos-once="true">Back-end</h4>
               <hr>
               <ul class="itens">
                 <li>Java</li>
@@ -111,7 +132,7 @@
         <div class="p-3 align-self-center col-md-4">
           <div class="card">
             <div class="card-block p-3">
-              <h4>Ferramentas</h4>
+              <h4 data-aos="fade-up" data-aos-once="true">Ferramentas</h4>
               <hr> 
                <ul class="itens">
                 <li>Eclipse</li>                
@@ -128,7 +149,7 @@
       </div>
     </div>
   </div>
-  <div class="" id="speakers">
+  <div class="" id="projetos">
     <div class="container projetos" >
       <div class="row">
         
@@ -137,7 +158,7 @@
         </div>
         
       </div>
-      <div class="row">
+      <div class="row" data-aos="fade-up" data-aos-once="true">
         <div class="col-6 col-lg-6 bg-light animate-in-down">
           <a href="#">
             <img src="img/portfolio/ufpeid.png" class="center-block img-fluid my-3 rounded-circle" width="300">
@@ -158,7 +179,7 @@
           <h1 class="mb-4">Projetos Mobile</h1>
       </div>
         
-      <div class="row">
+      <div class="row" data-aos="fade-up" data-aos-once="true">
         <div class="col-6 col-lg-4 bg-secondary animate-in-down">
           <a href="#">
             <img src="img/portfolio/mychef.png" class="center-block img-fluid my-3 rounded-circle" width="300">
@@ -169,7 +190,7 @@
         <div class="col-6 col-lg-4 animate-in-down">
           <a href="#">
             <img src="img/portfolio/skyalert.png" class="center-block img-fluid my-3 rounded-circle" width="300">
-            <h3 class="mb-0"><b>skyalert</b></h3>
+            <h3 class="mb-0"><b>Skyalert</b></h3>
             <p class="text-muted">Front-end developer</p>
           </a>
         </div>
@@ -208,15 +229,15 @@
   <!-- Sponsor logos -->
   <!-- Call to action -->
   <!-- Footer -->
-  <footer class="text-md-left text-center p-4 text-light">
+  <footer class="text-md-left text-center p-4 text-light" id="contato">
     <div class="container">
       <div class="row">
         <div class="my-3 col-lg-4 col-md-6">
-          <h3>Conference Pingendo</h3>
+          <h3>Gabriel Azuirson</h3>
           <p class="text-muted">December 12-14, 2017</p>
           <p class="my-4">
-            <a href="https://goo.gl/maps/ayn28vkB5F92" target="blank" class="text-muted">Empire State building 350 5th Ave,
-              <br>New York, NY 10118</a>
+            <a href="https://goo.gl/maps/gL6gBk3RJjH2" target="blank" class="text-muted">Recife, Pernambuco
+              </a>
           </p>
         </div>
         <div class="my-3 col-lg-4 col-md-6">
@@ -247,11 +268,6 @@
           <a href="https://www.youtube.com" target="blank"><i class="fa fa-3x text-muted fa-youtube-play m-2"></i></a>
         </div>
       </div>
-      <div class="row">
-        <div class="col-md-12">
-          <p class="text-muted">© Copyright 2017 Pingendo - All rights reserved. </p>
-        </div>
-      </div>
     </div>
   </footer>
   <!-- JavaScript dependencies -->
@@ -260,9 +276,10 @@
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" crossorigin="anonymous" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1"></script>
   <!-- Script: Smooth scrolling between anchors in a same page -->
   <script src="js/smooth-scroll.js"></script>
-  <pingendo onclick="window.open('https://pingendo.com/', '_blank')" style="cursor:pointer;position: fixed;bottom: 10px;right:10px;padding:2px;background-color: #00b0eb;border-radius: 8px; width:100px;display:flex;flex-direction:row;align-items:center;justify-content:center;font-size:12px;color:white">made with&nbsp;&nbsp;
-    <img src="https://pingendo.com/site-assets/Pingendo_logo_big.png" class="d-block" alt="Pingendo logo" height="16">
-  </pingendo>
+    <script src="node_modules/aos/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
 </body>
 
 </html>
