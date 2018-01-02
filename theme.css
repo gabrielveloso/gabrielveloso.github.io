@@ -1765,7 +1765,7 @@ select.form-control-lg:not([size]):not([multiple]), .input-group-lg > select.for
     flex: 0 0 25%;
     max-width: 25%; }
   .col-sm-4 {
-    flex: 0 0 33.33333%;
+    flex: 1 1 auto;
     max-width: 33.33333%; }
   .col-sm-5 {
     flex: 0 0 41.66667%;
@@ -1816,7 +1816,20 @@ select.form-control-lg:not([size]):not([multiple]), .input-group-lg > select.for
   .order-sm-12 {
     order: 12; } }
 
+  
+
 @media (min-width: 768px) {
+  .col-sm-offset-2:first-child {
+    padding: 0 10px 0 30px;
+  }
+
+  .col-sm-offset-2:last-child {
+    padding: 0 30px 0 0px;
+  }
+  .col-sm-offset-2:only-child{
+    padding: 0 10px 0 30px;
+  }
+
   .col-md {
     flex-basis: 0;
     flex-grow: 1;
@@ -2374,6 +2387,8 @@ button.list-group-item-dark {
 .modal-open {
   overflow: hidden; }
 
+img {max-width:100%;}
+
 .modal {
   position: fixed;
   top: 0;
@@ -2390,6 +2405,13 @@ button.list-group-item-dark {
   .modal.show .modal-dialog {
     transform: translate(0, 0); }
 
+.modal  h1, 
+.modal  h2,
+.modal  h3,
+.modal  h4,
+.modal  p{
+  color: black;
+}
 .modal-open .modal {
   overflow-x: hidden;
   overflow-y: auto; }
@@ -2443,7 +2465,7 @@ button.list-group-item-dark {
 .modal-footer {
   display: flex;
   align-items: center;
-  justify-content: flex-end;
+  justify-content: center;
   padding: 15px;
   border-top: 1px solid #e9ecef; }
   .modal-footer > :not(:first-child) {
@@ -2466,8 +2488,12 @@ button.list-group-item-dark {
     max-width: 300px; } }
 
 @media (min-width: 992px) {
+   .modal-dialog {
+    max-width: 1100px;
+    margin: 30px auto; }
   .modal-lg {
-    max-width: 800px; } }
+    max-width: 1500; 
+    margin: 0 auto;} }
 
 .nav {
   display: flex;
