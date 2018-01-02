@@ -2485,11 +2485,14 @@ img {max-width:100%;}
     max-width: 500px;
     margin: 30px auto; }
   .modal-sm {
-    max-width: 300px; } }
+    max-width: 300px; } 
+  .modal-body {
+    padding: 30px; } 
+  }
 
 @media (min-width: 992px) {
    .modal-dialog {
-    max-width: 1100px;
+    max-width: 900px;
     margin: 30px auto; }
   .modal-lg {
     max-width: 1500; 
