@@ -1818,17 +1818,7 @@ select.form-control-lg:not([size]):not([multiple]), .input-group-lg > select.for
 
   
 
-@media (min-width: 768px) {
-  .col-sm-offset-2:first-child {
-    padding: 0 10px 0 30px;
-  }
-
-  .col-sm-offset-2:last-child {
-    padding: 0 30px 0 0px;
-  }
-  .col-sm-offset-2:only-child{
-    padding: 0 10px 0 30px;
-  }
+@media (min-width: 768px) {  
 
   .col-md {
     flex-basis: 0;
