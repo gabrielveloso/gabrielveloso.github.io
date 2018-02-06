@@ -1910,6 +1910,9 @@ select.form-control-lg:not([size]):not([multiple]), .input-group-lg > select.for
   .col-lg-4 {
     flex: 0 0 33.33333%;
     max-width: 33.33333%; }
+    .col-lg-offset-4 {
+        margin: 0 auto;
+    }
   .col-lg-5 {
     flex: 0 0 41.66667%;
     max-width: 41.66667%; }
