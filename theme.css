@@ -5631,7 +5631,7 @@ body > * {
   position: relative;
   background: #505050 url(img/fundo.jpg) no-repeat;  
   background-size: cover;
-background-blend-mode: color-burn;}
+background-blend-mode: hard-light;}
   .photo-overlay:before {
     content: '';
     width: 100%;
