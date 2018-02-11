@@ -2382,6 +2382,24 @@ button.list-group-item-dark {
 
 img {max-width:100%;}
 
+a i {
+   animation:alternate move 3s linear ;
+}
+
+@keyframes move {
+    0% {
+        transform: rotateX(0) rotateY(0);
+    }
+
+    50% {
+        transform: rotateX(180deg) rotateY(100deg);
+    }
+
+    100% {
+        transform: rotateX(340deg)  rotateY(360deg);
+    }
+}
+
 .modal {
   position: fixed;
   top: 0;
@@ -5672,6 +5690,16 @@ background-blend-mode: hard-light;}
 
 .carousel p {
   margin-bottom: 0px; }
+
+div i {
+   transition: all 0.7s ease; 
+}
+
+div i:hover {
+  -webkit-transform:scale(1.2);
+    
+  transform:rotate(90deg);
+}
 
 .cover {
   min-height: 100%; }
