@@ -1,102 +1,643 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&family=Source+Sans+Pro&display=swap" rel="stylesheet">
-    <script src="https://kit.fontawesome.com/3fc1bcffba.js" crossorigin="anonymous"></script>
-</head>
-<body>
-    <header >
-        <div class="menu-fundo">
-            <div class="container">
-                <nav class="menu">
-                    <h2>Clinica cuidar do ser</h2>
-                    <ul>
-                        <li><a href="#sobre">Sobre</a></li>
-                        <li><a href="#trabalho">Portifólio</a></li>
-                        <li><a href="#contato">Contatos</a></li>
-                    </ul>
-                </nav>
-            </div>
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 100" preserveAspectRatio="none">
-                <path class="elementor-shape-fill" d="M421.9,6.5c22.6-2.5,51.5,0.4,75.5,5.3c23.6,4.9,70.9,23.5,100.5,35.7c75.8,32.2,133.7,44.5,192.6,49.7
-                c23.6,2.1,48.7,3.5,103.4-2.5c54.7-6,106.2-25.6,106.2-25.6V0H0v30.3c0,0,72,32.6,158.4,30.5c39.2-0.7,92.8-6.7,134-22.4
-                c21.2-8.1,52.2-18.2,79.7-24.2C399.3,7.9,411.6,7.5,421.9,6.5z"></path>   
-            </svg>
-           
-        </div>
-            <div class="head">
-                <div>
-                    <h1 class="site-titulo">Fique tranquilo, estou aqui para ajudá-lo</h1>
-                    <h3 class="site-subtitulo">Segundo Victor Frakil, fundador da logoterapia, o ser humarno é um ser fato conhecido de todos que um leitor se distrairá com o conteúdo de texto legível de uma página quando estiver examinando sua diagramação. 
-                    </h3>
-                </div>
-                <div class="img-head">
-                    <img src="./imgs/capa.png" alt="Psicóloga e um paciente">
-                </div>
-            </div>
-        
-    </header>
-    <div class="circulo"></div>
-    <section class="sobre " id="sobre">
-        <div class="container">
-            <h2>Sobre</h2>
-            <h3>Lorem Ipsum é simplesmente uma simulação de texto da indústria tipográfica e de impressos, e vem sendo utilizado desde o século XVI, quando um impressor desconhecido pegou uma bandeja de tipos e os embaralhou para fazer um livro de modelos de tipos. Lorem Ipsum sobreviveu não só a cinco séculos, como também ao salto para a editoração eletrônica, permanecendo essencialmente inalterado. Se popularizou na década de 60, quando a Letraset lançou decalques contendo passagens de Lorem Ipsum, e mais recentemente quando passou a ser integrado a softwares de editoração eletrônica como Aldus PageMaker.</h3>
-        </div>
-    </section>
-    <section class="trabalho container" id="trabalho">
-        <h2>Trabalho</h2>
-        <div class="grid">
-            <div class="card">
-                <figure class="card-front">
-                    <img class="img-portfolio" src="./imgs/crianca.png" alt="eCommerce">
-                    <figcaption>Criança e Adolescente</figcaption>
-                </figure>
-            </div>
-            <div class="card">
-                <figure class="card-front">
-                    <img class="img-portfolio" src="./imgs/adulto.png" alt="eCommerce">
-                    <figcaption>Adulto Individual</figcaption>
-                </figure>
-            </div>
-            <div class="card">
-                <figure class="card-front">
-                    <img class="img-portfolio" src="./imgs/grupo.png" alt="eCommerce">
-                    <figcaption>Dinâmicas de Grupo</figcaption>
-                </figure>
-            </div>
-        </div>
-        <div class="grid2">
-            <div class="card">
-                <figure class="card-front">
-                    <img class="img-portfolio" src="./imgs/casal.png" alt="eCommerce">
-                    <figcaption>Terapia para Casais</figcaption>
-                </figure>
-            </div>
-            <div class="card">
-                <figure class="card-front">
-                    <img class="img-portfolio" src="./imgs/mediacao.png" alt="eCommerce">
-                    <figcaption>Mediação</figcaption>
-                </figure>
-            </div>
-        </div>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- PAGE settings -->
+    <link rel="icon" type="image/x-icon" href="img/favicon/favicon.ico">
+    <link rel="apple-touch-icon-precomposed" href="img/favicon/fedora-hat-152-181124.png">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="img/favicon/fedora-hat-152-181124.png">
 
-        </div>
-    </section>
-    <section class="contato " id="contato">
-        <div class="container">
-            <h2>Contato</h2>
-            <div class="icones">                
-                <a href="mailto:marthamaveloso@gmail.com"><i class="far fa-envelope"></i></a>
-                <a href="https://www.instagram.com/clinica_cuidar_do_ser/"><i class="fab fa-instagram"></i></a>
-                <a href="http:/bit.ly/psimartha"><i class="fab fa-whatsapp"></i></a>
-            </div>
-        </div>
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="img/favicon/fedora-hat-144-181124.png">
 
-    </section>
+    <link rel="apple-touch-icon-precomposed" sizes="120x120" href="img/favicon/fedora-hat-120-181124.png">
+
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="img/favicon/fedora-hat-114-181124.png">
+
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="img/favicon/fedora-hat-72-181124.png">
+
+    <link rel="apple-touch-icon-precomposed" href="img/favicon/fedora-hat-57-181124.png">
+    <link rel="icon" href="img/favicon/fedora-hat-32-181124.png" sizes="32x32">
     
+  <title>Gabriel Azuirson's page</title>
+  <meta name="description" content="Gabriel Azuirson's page">
+  <meta name="keywords" content="front-end back-end portifólio desenvolvimento web">
+  <!-- CSS dependencies -->
+  <link rel="stylesheet" href="theme.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css">
+  <link rel="stylesheet" href="js/aos/dist/aos.css" />
+  <!-- Script: Make my navbar transparent when the document is scrolled to top -->
+  
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-113995788-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-113995788-1');
+</script>
+
+  
+  
+</head>
+
+<body class="text-center">
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-md fixed-top bg-dark navbar-dark">
+    <div class="container">
+      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbar2SupportedContent" aria-controls="navbar2SupportedContent" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span> </button>
+      <div class="collapse navbar-collapse justify-content-center" id="navbar2SupportedContent">
+        <ul class="navbar-nav">
+          <li class="nav-item mx-2">
+            <a class="nav-link" href="#home">Home</a>
+          </li>
+          <li class="nav-item mx-2">
+            <a class="nav-link" href="#projetos">Projetos</a>
+          </li>
+          <li class="nav-item mx-2">
+            <a class="nav-link" href="#habilidades">Habilidades</a>
+          </li>          
+          <li class="nav-item mx-2">
+            <a class="nav-link" href="#contato">Contato</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!-- Cover -->
+  <div class="d-flex align-items-center py-5 photo-overlay cover" id="home">
+    <div class="container">
+      <div class="row">
+        <div class="text-white p-5 bg-dark-opaque col-12 col-lg-8 mx-auto">
+          <h1 class="display-3" >Gabriel Azuirson</h1>
+          <p class="">Desenvolvedor Web e Mobile</p>
+          <div class="row ">
+            <h3 class="text-white p-2 mx-auto"></h3>         
+          </div>
+          <!-- <a href="CV.pdf" class="btn btn-lg mt-4 btn-primary">Currículo</a> -->
+        <div class="row">  
+          <div style="margin: 50px auto 0px auto;">
+              <a href="https://www.linkedin.com/in/gabriel-azuirson-8647639b" data-toggle="tooltip" title="linkedin" target="blank"><i class="fa fa-linkedin-square text-muted fa-3x m-2"></i></a>
+              <a href="https://github.com/gabrielveloso" target="blank"><i class="fa fa-github-square text-muted fa-3x m-2"></i></a> 
+              <a href="https://bitbucket.org/gabrielazuirson" target="blank"><i class="fa fa-bitbucket-square text-muted fa-3x m-2"></i></a> 
+              <!--<a href="https://www.facebook.com/gabriel.azuirson" target="blank"><i class="fa fa-facebook-square text-muted fa-3x m-2"></i></a>  -->            
+              <a href="https://br.pinterest.com/gabrielazuirson" target="blank"><i class="fa fa-3x text-muted fa-pinterest-p m-2"></i></a>
+              
+           </div>   
+        </div>
+        </div>
+      </div>
+            
+    </div>
+  </div>
+  <div class="" id="projetos">
+    <div class="container projetos" >
+      <div class="row">
+        <div class="col-md-12" >
+          <h1 class="display-3 my-5" >Projetos Mobile</h1>
+        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+          <ol class="carousel-indicators">
+            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+          </ol>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <a href="paginaRedacao.html">
+                <img src="img/portfolio/redacao/red1.png" class="d-block w-25 h-50 mx-auto" alt="...">
+              </a>
+              <div class="corousel-caption">
+                <h3 class="my-4 "> Projeto Português Experimental </h3>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <a href="paginaNr.html">
+                <img src="img/portfolio/nr1.png" class="d-block w-25 h-50 mx-auto" alt="...">
+              </a>
+              <div class="corousel-caption">
+                <h3 class="my-4 "> Projeto Noite Recifense </h3>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <a href="paginaFood.html" class="">
+                <img src="img/portfolio/food0.png" class="d-block w-25 h-50 mx-auto" alt="...">
+              </a>
+              <div class="corousel-caption">
+                <h3 class="my-4"> Projeto My Chef </h3>
+              </div>
+            </div>
+            <div class="carousel-item ">
+              <a href="paginaDetranMs.html">
+                <img src="img/portfolio/ms.png" class="d-block w-25 h-50 mx-auto" alt="...">
+              </a>
+              <div class="corousel-caption">
+                <h3 class="my-4 "> Projeto Consulta Detran MS </h3>
+              </div>
+            </div>
+            <!-- <div class="carousel-item">
+              <img src="img/portfolio/alert1.png" class="d-block w-25 h-50 mx-auto" alt="...">
+              <div class="corousel-caption">
+                <h3 class="my-4"> Projeto Alerta de Passagens</h3>
+              </div>
+            </div> -->
+          </div>
+          <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="bg-dark" id="projetos">
+    <div class="container projetos " >
+      <div class="row">
+        <div class="col-md-12" >
+          <h1 class="display-3 my-5" >Projetos Web</h1>
+        <div id="carouselExampleIndicators2" class="carousel slide" data-ride="carousel">
+          <ol class="carousel-indicators">
+            <li data-target="#carouselExampleIndicators2" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselExampleIndicators2" data-slide-to="1"></li>
+          </ol>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <a href="paginaUfpeId.html">
+                <img src="img/portfolio/ufpeid.png" class="d-block w-50 h-50 mx-auto" alt="...">
+              </a>
+              <div class="corousel-caption">
+                <h3 class="my-4 "> Projeto UFPE ID</h3>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <a href="paginaSkyAlertWeb.html">
+                <img src="img/portfolio/TelaSkyAlert.png" class="d-block w-50 h-50 mx-auto" alt="...">
+              </a>
+              <div class="corousel-caption">
+                <h3 class="my-4 "> Projeto Sky Alert</h3>
+              </div>
+            </div>    
+          
+        </div>   
+          <a class="carousel-control-prev" href="#carouselExampleIndicators2" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="carousel-control-next" href="#carouselExampleIndicators2" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Intro -->
+  <!-- Speakers -->
+  <div class="p-5 gradient-overlay bg-secondary" id="habilidades">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <h1 class="">Habilidades</h1>
+        </div>
+      </div>
+      <div class="row">
+        <div class="p-3 align-self-center col-md-4">
+          <div class="card">
+            <div class="card-block p-3">
+              <h4 data-aos="fade-up" data-aos-once="true">Front-End</h4>
+              <hr>
+              <ul class="itens">
+                <li>Angularjs</li>
+                <li>Angular 4</li>
+                <li>IONIC</li>
+                <li>Angular Material</li>
+                  <li>HTML</li>
+                  <li>CSS</li>
+                  <li>GULP</li>
+                  <li>SASS</li>
+                  <li>Bootstrap</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="p-3 align-self-center col-md-4">
+          <div class="card">
+            <div class="card-block p-3">
+              <h4 data-aos="fade-up" data-aos-once="true">Back-end</h4>
+              <hr>
+              <ul class="itens">
+                <li>Java</li>
+                <li>Spring Boot</li>
+                <li>JPA</li>
+                  <li>SQL</li>
+                  <li>Spring Security</li>
+                  <li>Api Rest</li>
+                  <li>JUnit</li>
+                  <li>Selenium</li>     
+                
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="p-3 align-self-center col-md-4">
+          <div class="card">
+            <div class="card-block p-3">
+              <h4 data-aos="fade-up" data-aos-once="true">Ferramentas</h4>
+              <hr> 
+               <ul class="itens">
+                <li>Eclipse</li>                
+                   <li>Sublime</li>                
+                   <li>Brackets</li>                
+                   <li>GIT</li>
+                   <li>Trelo</li>                
+                   <li>Firebase</li>                
+                   <li>Heroku</li>
+                </ul>
+              </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- <div class="" id="projetos">
+    <div class="container projetos" >
+
+      
+
+      <div class="row">
+        
+        <div class="col-md-12" >
+          <h1 class="mb-4">Projetos Web</h1>
+        </div>
+        
+      </div>
+      <div class="row" data-aos="fade-up" data-aos-once="true">
+        <div class="col-12 col-lg-12 bg-light animate-in-down">
+          <a href="#">
+            <img src="img/portfolio/ufpeid.png" class="center-block img-fluid my-3 rounded-circle" width="300">
+            <h3 class="mb-0"><b class="text-dark">UFPE ID</b></h3>
+            <p class="text-muted">UFPE ID</p>
+          </a>
+        </div>
+        
+      </div>
+        
+      <div class="col-md-12" >
+          <h1 class="mb-4">Projetos Mobile</h1>
+      </div>
+        
+      <div class="row" data-aos="fade-up" data-aos-once="true">
+        <div class="col-6 col-lg-4 bg-primary animate-in-down">
+          <a href="#modalNR" data-toggle="modal" data-target="#modalNR">
+            <img src="img/portfolio/cake.png" class="center-block img-fluid my-3 rounded-circle" width="300">
+            <h3 class="mb-0"><b>Noite Recifense</b></h3>
+            <p class="text-white">Noite Recifense</p>
+          </a>
+        </div>
+        <div class="col-6 col-lg-4 bg-warning animate-in-down">
+          <a href="#modalMychef" data-toggle="modal" data-target="#modalMychef">
+            <img src="img/portfolio/mychef.png" class="center-block img-fluid my-3 rounded-circle" width="300">
+            <h3 class="mb-0"><b>Mychef</b></h3>
+            <p class="text-white">UX designer</p>
+          </a>
+        </div>
+        <div class="col-6 col-lg-4 bg-primary animate-in-down">
+          <a href="#modalSky" data-toggle="modal" data-target="#modalSky">
+            <img src="img/portfolio/skyalert.png" class="center-block img-fluid my-3 rounded-circle" width="300">
+            <h3 class="mb-0"><b>Skyalert</b></h3>
+            <p class="text-muted">Front-end developer</p>
+          </a>
+        </div>
+        <div class="col-6 col-lg-4 bg-primary animate-in-down">
+          <a href="#modelDetranal" data-toggle="modal" data-target="#modalDetranAl">
+            <img src="img/portfolio/detranal.png" class="center-block img-fluid my-3 rounded-circle" width="300">
+            <h3 class="mb-0"><b>Detran Al</b></h3>
+            <p class="">Bootstrap evangelist</p>
+          </a>
+        </div>
+        <div class="col-6 mask col-lg-4 bg-success animate-in-down">
+          <a href="#modalDetranPE" data-toggle="modal" data-target="#modalDetranPE">
+            <img src="img/portfolio/detranpe.png" class="center-block img-fluid my-3 rounded-circle" width="300">
+            <h3 class="mb-0"><b>Detran PE</b></h3>
+            <p class="">Front-end developer</p>
+          </a>
+        </div>
+        <div class="col-6 mask col-lg-4 bg-primary animate-in-down">
+          <a href="#modalMagic" data-toggle="modal" data-target="#modalMagic">
+            <img src="img/portfolio/magic.png" class="center-block img-fluid my-3 rounded-circle" width="300">
+            <h3 class="mb-0"><b >Magic Videos</b></h3>
+            <p class="text-dark">Front-end developer</p>
+          </a>
+        </div>
+        <div class="col-6 mask col-lg-4 col-lg-offset-4 bg-primary animate-in-down">
+          <a href="#modalDetranMS" data-toggle="modal" data-target="#modalDetranMS">
+            <img src="img/portfolio/detranms.png" class="center-block img-fluid my-3 rounded-circle" width="300">
+            <h3 class="mb-0"><b>Detran Ms</b></h3>
+            <p class="">Front-end developer</p>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+   -->
+  <div class="modal fade modal-lg" id="modalNR" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">            
+            <h4 class="modal-title" id="exampleModalLabel"></h4>
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          </div>
+          <div class="modal-body">
+              <h2>Noite Recifense</h2>
+              <hr class="star-primary">
+              <div >
+                <img src="img/portfolio/cake.png"  alt="">
+              </div>
+              <br>
+              <h4>Aplicativo para restaurantes integrado com o PagSeguro</h4>
+              <div class="row">
+                      <div class="col-sm-6 col-sm-offset-2">
+                          <a href="#portfolioModal1" class="" data-toggle="modal">                             
+                              <img src="img/portfolio/nr1.png"  alt="Cabin">
+                          </a>
+                      </div>
+                      <div class="col-sm-6  col-sm-offset-2">
+                          <a href="#portfolioModal2" class="portfolio-link" data-toggle="modal">                             
+                              <img src="img/portfolio/nr2.png" class="img-responsive" alt="Slice of cake">
+                          </a>
+                      </div>               
+              </div>
+              
+          </div>
+            
+
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            
+          </div>
+        </div>
+      </div>
+  </div>
+    
+  <div class="modal fade modal-lg" id="modalMychef" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">            
+            <h4 class="modal-title" id="exampleModalLabel"></h4>
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          </div>
+          <div class="modal-body">
+              <h2>My Chef</h2>
+              <hr class="star-primary">
+              <div >
+                <img src="img/portfolio/mychef.png"  alt="">
+              </div>
+              <br>
+              <h4>Aplicativo para restaurantes integrado com o PagSeguro</h4>
+              <div class="row">
+                      <div class="col-sm-6 col-sm-offset-2">
+                          <a href="#portfolioModal1" class="" data-toggle="modal">                             
+                              <img src="img/portfolio/food2.png"  alt="Cabin">
+                          </a>
+                      </div>
+                      <div class="col-sm-6  col-sm-offset-2">
+                          <a href="#portfolioModal2" class="portfolio-link" data-toggle="modal">                             
+                              <img src="img/portfolio/food3.png" class="img-responsive" alt="Slice of cake">
+                          </a>
+                      </div>               
+              </div>
+              <br>
+              <div class="row">
+                      <div class="col-sm-6 col-sm-offset-2">
+                          <a href="#portfolioModal1" class="portfolio-link" data-toggle="modal">
+                             
+                              <img src="img/portfolio/food4.png"  alt="Cabin">
+                          </a>
+                      </div>              
+              </div>
+          </div>
+            
+
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            
+          </div>
+        </div>
+      </div>
+  </div>
+
+   <div class="modal fade modal-lg" id="modalSky" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">            
+            <h4 class="modal-title" id="exampleModalLabel"></h4>
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          </div>
+          <div class="modal-body">
+              <h2>SkyAlert</h2>
+              <hr class="star-primary">
+              <div >
+                <img src="img/portfolio/skyalert.png"  alt="">
+              </div>
+              <br>
+              <h4>Alerta de passágens aérias por E-mail</h4>
+              <div class="row">
+                      <div class="col-sm-6 col-sm-offset-2">
+                          <a href="#portfolioModal1" class="" data-toggle="modal">                             
+                              <img src="img/portfolio/alert1.png"  alt="Cabin">
+                          </a>
+                      </div>
+                      <div class="col-sm-6  col-sm-offset-2">
+                          <a href="#portfolioModal2" class="portfolio-link" data-toggle="modal">                             
+                              <img src="img/portfolio/alert2.png" class="img-responsive" alt="Slice of cake">
+                          </a>
+                      </div>               
+              </div>
+          </div>
+            
+              
+
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            
+          </div>
+        </div>
+      </div>
+  </div>
+
+     <div class="modal fade modal-lg" id="modalDetranPE" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">            
+            <h4 class="modal-title" id="exampleModalLabel"></h4>
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          </div>
+          <div class="modal-body">
+              <h2>Consulta Detran - PE</h2>
+              <hr class="star-primary">
+              <div >
+                <img src="img/portfolio/detranpe.png"  alt="">
+              </div>
+              <br>
+              <h4>Aplicativo criado para ajudar usuários do Detran-PE a consulta de multas, débitos e pontos na CNH.</h4>
+            
+          </div>
+            
+
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            
+          </div>
+        </div>
+      </div>
+  </div>
+
+     <div class="modal fade modal-lg" id="modalDetranAl" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">            
+            <h4 class="modal-title" id="exampleModalLabel"></h4>
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          </div>
+          <div class="modal-body">
+              <h2>Detran-AL</h2>
+              <hr class="star-primary">
+              <div >
+                <img src="img/portfolio/detranal.png"  alt="">
+              </div>
+              <br>
+              <h4>Aplicativo criado para ajudar usuários do Detran-AL a consulta de multas, débitos e pontos na CNH.</h4>
+            
+          </div>
+           
+
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            
+          </div>
+        </div>
+      </div>
+  </div>
+
+    <div class="modal fade modal-lg" id="modalDetranMS" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">            
+            <h4 class="modal-title" id="exampleModalLabel"></h4>
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          </div>
+          <div class="modal-body">
+              <h2>Detran-MS</h2>
+              <hr class="star-primary">
+              <div >
+                <img src="img/portfolio/detranms.png"  alt="">
+              </div>
+              <br>
+              <h4>Aplicativo criado para ajudar usuários do Detran-MS a consulta de multas, débitos e pontos na CNH.</h4>
+              <div class="row">
+                      <div class="col-sm-6 col-sm-offset-2">
+                          <a href="#portfolioModal1" class="" data-toggle="modal">                             
+                              <img src="img/portfolio/ms.png"  alt="Cabin">
+                          </a>
+                      </div>
+                      <div class="col-sm-6  col-sm-offset-2">
+                          <a href="#portfolioModal2" class="portfolio-link" data-toggle="modal">                             
+                              <img src="img/portfolio/ms2.phn" class="img-responsive" alt="Slice of cake">
+                          </a>
+                      </div>               
+              </div>
+              <br>
+              <div class="row">
+                      <div class="col-sm-6 col-sm-offset-2">
+                          <a href="#portfolioModal1" class="portfolio-link" data-toggle="modal">
+                             
+                              <img src="img/portfolio/food4.png"  alt="Cabin">
+                          </a>
+                      </div>              
+              </div>
+          </div>
+            
+
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            
+          </div>
+        </div>
+      </div>
+  </div>
+
+  <!-- Schedule -->
+  <!-- Sponsor logos -->
+  <!-- Call to action -->
+  <!-- Footer -->
+  <footer class="text-md-left text-center p-4 text-light" id="contato">
+    <div class="container">
+      <div class="row">
+        <div class="my-3 col-lg-4 col-md-6">
+          <h3>Gabriel Azuirson</h3>
+          <p class="text-muted">Jan 12-14, 2020</p>
+          <p class="my-4">
+            <a href="https://goo.gl/maps/gL6gBk3RJjH2" target="blank" class="text-muted">Recife, Pernambuco
+              </a>
+          </p>
+        </div>
+        <div class="my-3 col-lg-4 col-md-6">
+          <h3>Contact us</h3>
+          <form>
+            <fieldset class="form-group my-3">
+              <input type="email" class="form-control" id="Input Email" placeholder="Email"> </fieldset>
+            <fieldset class="form-group my-3">
+              <input type="message" class="form-control" id="Input Message" placeholder="Message"> </fieldset>
+            <button type="submit" class="btn btn-outline-primary">Submit</button>
+          </form>
+        </div>
+        <div class="col-lg-1">
+          <a href="https://www.facebook.com" target="blank"></a>
+          <a href="https://www.instagram.com" target="blank"></a>
+          <a href="https://twitter.com" target="blank"></a>
+          <a href="https://plus.google.com" target="blank"></a>
+          <a href="https://pinterest.com" target="blank"></a>
+          <a href="https://www.youtube.com" target="blank"></a>
+        </div>
+        <div class="my-3 col-lg-3">
+          <h3>Follow</h3>
+              <a href="https://www.linkedin.com/in/gabriel-azuirson-8647639b"  target="blank"><i  class="fa fa-linkedin-square text-muted fa-3x m-2"></i></a>
+              <a href="https://github.com/gabrielveloso" target="blank"><i class="fa fa-github-square text-muted fa-3x m-2"></i></a> 
+              <a href="https://bitbucket.org/gabrielazuirson" target="blank"><i class="fa fa-bitbucket-square text-muted fa-3x m-2"></i></a> 
+             <!-- <a href="https://www.facebook.com/gabriel.azuirson" target="blank"><i class="fa fa-facebook-square text-muted fa-3x m-2"></i></a>      -->         
+              <a href="https://br.pinterest.com/gabrielazuirson" target="blank"><i class="fa fa-3x text-muted fa-pinterest-p m-2"></i></a>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!-- JavaScript dependencies -->
+  <script src="https://code.jquery.com/jquery-3.2.1.min.js" crossorigin="anonymous" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" crossorigin="anonymous" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" crossorigin="anonymous" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1"></script>
+  <!-- Script: Smooth scrolling between anchors in a same page -->
+  
+    <script src="js/aos/dist/aos.js"></script>
+  <script>
+    AOS.init();
+      
+    $('.navbar-nav a[href^="#"]').on('click', function(e) {
+      e.preventDefault();
+      var id = $(this).attr('href'),
+      targetOffset = $(id).offset().top;
+
+      $('html, body').animate({ 
+        scrollTop: targetOffset - 100
+      }, 500);
+    });
+  </script>
 </body>
+
 </html>
