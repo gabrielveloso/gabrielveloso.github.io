@@ -85,7 +85,7 @@ header {
 
 .menu ul{
     display: flex;    
-    justify-content: space-around;
+    justify-content: space-between;
 }
 
 .menu li{
@@ -214,7 +214,7 @@ header {
     fill: #fff;    
  }
 
- svg {
+ .menu-fundo svg {
     transform: rotateX(180deg);
     width: 100%;
     height: 40px;
@@ -234,4 +234,83 @@ header {
     font-size: 5em;
     color: black;
     padding: 0 10px
+}
+
+nav h2{
+    font-family: 'Satisfy', cursive;
+    font-weight: normal;
+    padding: 0 20px
+}
+
+.whatsapp {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+}
+
+.whatsapp a{
+    font-size: 4em;
+    color: black;
+    padding: 0 10px
+}
+
+.img-head svg {
+    height: 30px;
+}
+
+
+
+
+#bola_1 {
+    height: 30px;;
+    animation: ease-in-out 4s 0.3s animationTitulo2 infinite;
+    position: relative;
+    left: 200px;
+}
+
+@keyframes animationTitulo2 {
+    0% {
+        /* transform: scale(0) translateY(30vh); */
+        transform: translateY(20px)  translateX(0px);
+        opacity: 1;
+    }
+      
+    50% {
+        transform: translateY(0px) translateX(5px);
+
+        opacity: 1;
+    }
+
+    100% {
+        transform: translateY(20px) translateX(0px);
+
+        opacity: 1;
+    }
+}
+
+#bola_2{
+    height: 20px;
+    animation: ease-out 3s 0.3s animationTitulo infinite;
+    position: relative;
+    left: 100px;
+}
+
+@keyframes animationTitulo {
+    0% {
+        /* transform: scale(0) translateY(30vh); */
+        transform: translateY(20px);
+        opacity: 1;
+    }
+      
+    50% {
+        transform: translateY(10px);
+
+        opacity: 1;
+    }
+
+    100% {
+        transform: translateY(20px);
+
+        opacity: 1;
+    }
 }
